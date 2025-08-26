@@ -14,6 +14,8 @@ The details for all the packages you will need are in the `requirements.md` file
 You must run the programme through the command line using the following format:
 `python3 run_eval.py --user_id <USER_ID> --num_recs <NUMBER_OF_RECOMMENDATIONS> --eval|--basic | --advanced`
 
+The user ID denotes which user is being selected for the recommendations.
+
 ####  Functions
 The three optional commands are `--eval`, `--basic` and `advanced`. Only one of these can be chosen.
  - `--eval`: Evaluates the RMSE scores for the basic and advanced models
